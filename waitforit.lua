@@ -27,7 +27,7 @@ function show_syntax()
 	print('    wfi stop: Stop waiting.')
 	print('    wfi tomorrow: alert when day changes')
 	print('    wfi day <DAY>: alert when specific day happens')
-	print('    wfi timer <minu>: alert after <min> minutes')
+	print('    wfi timer <mins>: alert after <min> minutes')
 end
 
 function alert(msg)
