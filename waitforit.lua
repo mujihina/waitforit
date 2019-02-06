@@ -94,6 +94,7 @@ function wfi_command (cmd, args)
     if cmd == 'stop' then
         print ("wfi: Stopping")
         enable_mode = false
+        text_object:hide()
         return
     end    
 	if cmd == 'status' then
